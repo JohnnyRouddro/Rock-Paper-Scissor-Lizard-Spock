@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" pickOnBounds="false" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="paperbtn" layoutX="131.0" layoutY="111.0" minHeight="30.0" minWidth="60.0" onAction="#paperAction" text="Paper" />
+      <Button fx:id="rockbtn" layoutX="48.0" layoutY="111.0" minHeight="30.0" minWidth="60.0" onAction="#rockAction" text="Rock" />
+      <Button fx:id="scsrbtn" layoutX="214.0" layoutY="111.0" minHeight="30.0" minWidth="60.0" onAction="#scsrAction" text="Scissor" />
+      <Button fx:id="lizardbtn" layoutX="87.0" layoutY="156.0" minHeight="30.0" minWidth="60.0" onAction="#lizAction" text="Lizard" />
+      <Button fx:id="spockbtn" layoutX="176.0" layoutY="156.0" minHeight="30.0" minWidth="60.0" onAction="#spockAction" text="Spock" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="21.0" minHeight="16" minWidth="69" prefHeight="73.0" prefWidth="179.0" text="Choose an option" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
